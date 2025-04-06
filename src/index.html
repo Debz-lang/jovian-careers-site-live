@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <title>
+            Job website
+        </title>
+        <link rel="icon" href="cannabis.jpg">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="navbar">
+            <img id="logo" src="https://i.imgur.com/m1wXjqw.png" alt="logo">
+        </div>
+
+        <img id="banner" src="logo.jpg" alt="logo">
+        
+        <h1>About Jovian</h1>
+
+        <div id="about">
+            <div id="description">
+                <p style="margin-top: 0;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, amet voluptate provident laudantium vero reprehenderit quisquam velit illo repellendus adipisci nemo aspernatur repudiandae iusto officiis labore molestias accusantium assumenda est!
+                </p>
+
+                <p>We also offer 2 industry-focused bootcamps:
+                <ol>
+                    <li>
+                        <a href="https://youtu.be/nu_pCVPKzTk?si=sExhOOyugS2uI_iy" target="_blank">Full-stack</a>
+                    </li>
+                    <li>
+                        <a href="https://youtu.be/dX8396ZmSPk?si=aGQzydoIr_b31WM1" target="_blank">Web development</a> 
+                    </li>
+                </ol>
+                </p>
+            </div>
+
+            <div id="team">
+               <img id="teamwork" src="teamwork.jpg" alt="teamwork">
+            </div>
+        </div>
+
+        <h2>Job opportunities</h2>
+
+        <div id="jobs">
+            <table id="jobs-table">
+                <tr class="jobs-header-row">
+                    <th rowspan="2">Job Title</th>
+                    <th colspan="2">Location</th>
+                    <th rowspan="2">Salary</th>
+                    <th rowspan="2">Posted On</th>
+                </tr>
+                <tr class="jobs-header-row">
+                    <th>City</th>
+                    <th>Country</th>
+                </tr>
+                <tr class="jobs-data-row">
+                    <td>Front End Developer</td>
+                    <td>New Delhi</td>
+                    <td>India</td>
+                    <td>1200 usd</td>
+                    <td>March 3, 2023</td>
+                </tr>
+                <tr class="jobs-data-row">
+                    <td>Full Stack Developer</td>
+                    <td>Mumbai</td>
+                    <td>India</td>
+                    <td>1300 usd</td>
+                    <td>Feb 1, 2023</td>
+                </tr>
+                <tr class="jobs-data-row">
+                    <td>Data Scientist</td>
+                    <td>Nairobi</td>
+                    <td>Kenya</td>
+                    <td>1400usd</td>
+                    <td>Dec 22, 2022</td>
+                </tr>
+                <tr class="jobs-data-row">
+                    <td>Machine learning Engineer</td>
+                    <td>Mombasa</td>
+                    <td>Kenya</td>
+                    <td>1500usd</td>
+                    <td>Sep 19, 2022</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="application">
+            <h2>Submit your application</h2>
+            <form id="application-form">
+                <div class="formgroup">
+                    <label for="name">Full Name</label><br>
+                    <input type="text" id="name" name="Full Name" required placeholder="Jane Doe">
+                </div>
+
+                <div class="formgroup">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required placeholder="dnabuyo@gmail.com">
+                </div>
+
+                <div class="formgroup">
+                    <label for="phone">Phone</label><br>
+                    <input type="tel" id="phone" name="phone" required placeholder="07209877755">
+                </div>
+
+                <div class="formgroup">
+                    <label for="dob">Date of Birth</label><br>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+
+                <div class="formgroup">
+                    <label for="position">Position applied for</label><br>
+                    <select name="Position Applied" id="position applied" required>
+                        <option value="select position">Select position</option>
+                        <option value="frontend">Frontend Developer</option>
+                        <option value="fullstack">Full-stack Developer</option>
+                        <option value="data scientist">Data Scientist</option>
+                        <option value="ML Engineer">ML Engineer</option>
+                    </select>
+                </div>
+
+                <div class="formgroup">
+                    <label for="resume">Upload resume</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+                </div>
+
+                <div class="formgroup">
+                    <label for="cover letter">Cover letter</label><br>
+                    <textarea name="cover letter" id="cover letter" rows="5" required placeholder="Explain what makes you suitable for the job!"></textarea>
+                </div>
+
+                <div class="formgroup">
+                    <label for="terms">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        I agree to the terms and conditions
+                    </label>
+
+                </div>
+
+                <div class="formgroup">
+                    <input type="submit" value="submit">
+                </div>
+            </form>
+
+        </div>
+
+        <div id="footer">
+            <ul id="footer-links">
+                <li>
+                   <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi37_aE2JGMAxXCp2gJHYljF6QYABAGGgJ3Zg&co=1&gclid=Cj0KCQjwkN--BhDkARIsAD_mnIqHIOxMA73cjAWD6dQWdKLnMh9epr16w-N7qDH-q5oOk40piZVShMMaAp8xEALw_wcB&ohost=www.google.com&cid=CAESVuD2wu6MxS3IQ2auW3zLF7D2Ra4lfGBSekk1vvPgRh4KXPOSHyw3Rbjuh7EvI2hbPxuRhBmZvRZAViuBhxSWdVqFrZZJYdY90j0n4HfcWB0clYjjmiZJ&sig=AOD64_2V6awR3CCD3sPt52bOwJf3NrwOzQ&q&adurl&ved=2ahUKEwj5xe-E2JGMAxWMRqQEHZGSNZwQ0Qx6BAgMEAE" target="_blank">Courses</a> 
+                </li>
+                <li>
+                    <a href="https://www.alxafrica.com/programmes/" target="_blank">Programs</a>
+                </li>
+                <li>
+                   <a href="https://www.youtube.com/" target="_blank">Youtube</a> 
+                </li>
+            </ul>
+            <span id="copyright">© 2025 Jovian</span>
+        </div>
+        
+    </body>
+</html>
